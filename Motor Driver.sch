@@ -8183,37 +8183,26 @@ DIN A4, landscape with extra doc field</description>
 Based on the previous library ind-a.lbr&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="82114R">
-<description>&lt;B&gt;INDUCTOR&lt;/B&gt;&lt;p&gt;
-manufacturer Siemens</description>
-<wire x1="0.3302" y1="2.2098" x2="1.6002" y2="0.9398" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="1.5748" x2="0.9652" y2="0.3048" width="0.1524" layer="51"/>
-<wire x1="-1.5748" y1="-0.9652" x2="-0.3048" y2="-2.2352" width="0.1524" layer="51"/>
-<wire x1="-0.9398" y1="-0.3302" x2="0.3302" y2="-1.6002" width="0.1524" layer="51"/>
-<wire x1="-1.016" y1="1.651" x2="1.651" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-1.651" y1="1.016" x2="1.016" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="1.016" y1="-1.651" x2="1.664" y2="-1.0284" width="0.1524" layer="51" curve="182.298596"/>
-<wire x1="1.5748" y1="-0.3048" x2="2.2228" y2="0.3178" width="0.1524" layer="21" curve="182.298596"/>
-<wire x1="-0.3302" y1="-2.2098" x2="0.3178" y2="-1.5872" width="0.1524" layer="51" curve="182.298596"/>
-<wire x1="-0.3178" y1="1.5872" x2="0.3302" y2="2.2098" width="0.1524" layer="51" curve="-182.298596"/>
-<wire x1="-2.2228" y1="-0.3178" x2="-1.5748" y2="0.3048" width="0.1524" layer="21" curve="-182.298596"/>
-<wire x1="-1.664" y1="1.0284" x2="-1.016" y2="1.651" width="0.1524" layer="51" curve="-182.298596"/>
-<wire x1="-1.5748" y1="0.3048" x2="-0.9398" y2="-0.3302" width="0.1524" layer="21"/>
-<wire x1="-2.2098" y1="-0.3302" x2="-1.5748" y2="-0.9652" width="0.1524" layer="21"/>
-<wire x1="0.9652" y1="0.3048" x2="1.6002" y2="-0.3302" width="0.1524" layer="21"/>
-<wire x1="1.6002" y1="0.9398" x2="2.2352" y2="0.3048" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="0" x2="1.27" y2="0.635" width="0.8128" layer="21"/>
-<wire x1="-1.905" y1="0" x2="-1.27" y2="-0.635" width="0.8128" layer="21"/>
-<wire x1="0" y1="-1.905" x2="-1.27" y2="-0.635" width="0.8128" layer="51"/>
-<wire x1="0" y1="1.905" x2="1.27" y2="0.635" width="0.8128" layer="51"/>
-<wire x1="1.397" y1="-1.397" x2="0.254" y2="-0.254" width="0.8128" layer="51"/>
-<wire x1="0.254" y1="-0.254" x2="-0.254" y2="0.254" width="0.8128" layer="21"/>
-<wire x1="-0.254" y1="0.254" x2="-1.397" y2="1.397" width="0.8128" layer="51"/>
-<circle x="0" y="0" radius="3.175" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="1.905" drill="0.8128" shape="long"/>
-<pad name="2" x="0" y="-1.905" drill="0.8128" shape="long"/>
-<text x="-2.54" y="3.429" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-4.699" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<package name="DR74">
+<description>&lt;b&gt;High Power Density, High Efficiency, Shielded Inductors&lt;/b&gt;&lt;p&gt;
+Source: coiltronics_dr_series.pdf</description>
+<wire x1="-3.7" y1="3.7" x2="3.7" y2="3.7" width="0.2032" layer="21"/>
+<wire x1="3.7" y1="3.7" x2="3.7" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="3.7" y1="-3.7" x2="-3.7" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="-3.7" x2="-3.7" y2="3.7" width="0.2032" layer="21"/>
+<wire x1="0" y1="2.975" x2="-2.4" y2="1.75" width="0.2032" layer="21" curve="53.855356"/>
+<wire x1="0" y1="2.975" x2="2.4" y2="1.75" width="0.2032" layer="21" curve="-53.855356"/>
+<wire x1="0" y1="-2.975" x2="2.4" y2="-1.75" width="0.2032" layer="21" curve="53.855356"/>
+<wire x1="0" y1="-2.975" x2="-2.4" y2="-1.75" width="0.2032" layer="21" curve="-53.855356"/>
+<circle x="0" y="0" radius="2.975" width="0.2032" layer="51"/>
+<smd name="1" x="-3" y="0" dx="2.5" dy="3.25" layer="1"/>
+<smd name="2" x="3" y="0" dx="2.5" dy="3.25" layer="1"/>
+<text x="-3.5" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.5" y="-5.5" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.8215" y1="1.984" x2="-1.7215" y2="2.559" layer="21" rot="R45"/>
+<rectangle x1="-2.8215" y1="-2.559" x2="-1.7215" y2="-1.984" layer="21" rot="R135"/>
+<rectangle x1="1.7215" y1="-2.559" x2="2.8215" y2="-1.984" layer="21" rot="R225"/>
+<rectangle x1="1.7215" y1="1.984" x2="2.8215" y2="2.559" layer="21" rot="R315"/>
 </package>
 </packages>
 <symbols>
@@ -8227,16 +8216,17 @@ manufacturer Siemens</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="82114R" prefix="L">
-<description>&lt;B&gt;INDUCTOR&lt;/B&gt;</description>
+<deviceset name="DR74" prefix="L">
+<description>&lt;b&gt;High Power Density, High Efficiency, Shielded Inductors&lt;/b&gt;&lt;p&gt;
+Source: coiltronics_dr_series.pdf</description>
 <gates>
-<gate name="1" symbol="DRK" x="0" y="0"/>
+<gate name="G$1" symbol="DRK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="82114R">
+<device name="" package="DR74">
 <connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14094,16 +14084,16 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="U2" library="LM27313" deviceset="LM27313" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
-<part name="L1" library="inductors" deviceset="82114R" device=""/>
+<part name="L1" library="inductors" deviceset="DR74" device=""/>
 <part name="D1" library="diode" deviceset="MBR0520LT" device=""/>
 <part name="C5" library="resistor" deviceset="C-EU" device="C0805K" value="100nF"/>
 <part name="C6" library="rcl" deviceset="CPOL-EU" device="B45181B" value="1000uF / 16v"/>
 <part name="P+10" library="supply1" deviceset="+12V" device=""/>
 <part name="P+11" library="supply1" deviceset="+12V" device=""/>
-<part name="C1" library="resistor" deviceset="C-EU" device="C0805K"/>
-<part name="C2" library="resistor" deviceset="C-EU" device="C0805K"/>
-<part name="C3" library="resistor" deviceset="C-EU" device="C0805K"/>
-<part name="C4" library="resistor" deviceset="C-EU" device="C0805K"/>
+<part name="C1" library="resistor" deviceset="C-EU" device="C0402K"/>
+<part name="C2" library="resistor" deviceset="C-EU" device="C0402K"/>
+<part name="C3" library="resistor" deviceset="C-EU" device="C0402K"/>
+<part name="C4" library="resistor" deviceset="C-EU" device="C0402K"/>
 <part name="C7" library="resistor" deviceset="C-EU" device="C0805K"/>
 <part name="C8" library="resistor" deviceset="C-EU" device="C0805K" value="100nF"/>
 <part name="C9" library="resistor" deviceset="C-EU" device="C0805K" value="100nF"/>
@@ -14111,8 +14101,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="C11" library="resistor" deviceset="C-EU" device="C0805K" value="100nF"/>
 <part name="C12" library="resistor" deviceset="C-EU" device="C0805K" value="10nF"/>
 <part name="C13" library="resistor" deviceset="C-EU" device="C0805K" value="10nF"/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="M0805"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="M0805"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="M0805" value="1"/>
+<part name="R2" library="resistor" deviceset="R-EU_" device="M0805" value="56k"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="VCC" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -14147,11 +14137,11 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <instance part="FRAME1" gate="G$2" x="48.26" y="-43.18"/>
 <instance part="U2" gate="A" x="-30.48" y="17.78"/>
 <instance part="P+9" gate="1" x="-10.16" y="40.64"/>
-<instance part="L1" gate="1" x="-30.48" y="33.02"/>
+<instance part="L1" gate="G$1" x="-30.48" y="33.02"/>
 <instance part="D1" gate="G$1" x="-55.88" y="20.32" rot="R180"/>
 <instance part="C5" gate="G$1" x="-60.96" y="17.78"/>
 <instance part="C6" gate="G$1" x="-68.58" y="17.78"/>
-<instance part="P+10" gate="1" x="-60.96" y="25.4"/>
+<instance part="P+10" gate="1" x="-60.96" y="30.48"/>
 <instance part="P+11" gate="1" x="2.54" y="30.48"/>
 <instance part="C1" gate="G$1" x="81.28" y="78.74" rot="R90"/>
 <instance part="C2" gate="G$1" x="81.28" y="58.42" rot="R90"/>
@@ -14212,7 +14202,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="-58.42" y1="20.32" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-60.96" y="20.32"/>
 <pinref part="P+10" gate="1" pin="+12V"/>
-<wire x1="-60.96" y1="22.86" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="27.94" x2="-60.96" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+6" gate="1" pin="+12V"/>
@@ -14409,7 +14399,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="L1" gate="1" pin="2"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="U2" gate="A" pin="VIN"/>
 <wire x1="-22.86" y1="33.02" x2="-10.16" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="33.02" x2="-10.16" y2="20.32" width="0.1524" layer="91"/>
@@ -14424,7 +14414,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="L1" gate="1" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="U2" gate="A" pin="SW"/>
 <wire x1="-38.1" y1="33.02" x2="-50.8" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="33.02" x2="-50.8" y2="20.32" width="0.1524" layer="91"/>
