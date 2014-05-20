@@ -1,1 +1,1 @@
-Board desing not started yet
+Warning !!! The board is untested
